@@ -25,14 +25,12 @@ def deco(fun_12) :
         print("Start")
         fun_12()
         print("End")
-    return deoce()
+    return deoce
 
 
 
-# @deco
+@deco
 def my_Dec() :
     print("My Name Is Prateek")
 
-
-my_Dec=deco(my_Dec)
-my_Dec
+my_Dec()

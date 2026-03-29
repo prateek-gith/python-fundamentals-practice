@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import random # For generating random numbers
 import sys # We will use sys.exit to exit the program
 import pygame
@@ -221,7 +220,7 @@ if __name__ == "__main__":
     while True:
         welcomeScreen() # Shows welcome screen to the user until he presses a button
         mainGame() # This is the main game function 
-=======
+
 import random # For generating random numbers
 import sys # We will use sys.exit to exit the program
 import pygame
@@ -444,4 +443,4 @@ if __name__ == "__main__":
     while True:
         welcomeScreen() # Shows welcome screen to the user until he presses a button
         mainGame() # This is the main game function 
->>>>>>> origin/main
+

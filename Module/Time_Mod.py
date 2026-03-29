@@ -3,8 +3,8 @@ import time
 # here no parameter is passed
 print(time.strftime("%H:%M:%S"))
 
-print(time.time())
-print(time.localtime(time.time()))
+# print(time.time())
+# print(time.localtime(time.time()))
 loc_tm=time.asctime(time.localtime(time.time()))
 print(loc_tm)
 
